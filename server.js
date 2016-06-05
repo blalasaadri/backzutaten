@@ -1,6 +1,7 @@
 /**
  * 
  */
+var PORT = 3001;
 
 var fs = require('fs');
 var path = require('path');
@@ -8,7 +9,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 
-app.set('port', (process.env.PORT || 3001));
+app.set('port', (process.env.PORT || PORT));
 
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
