@@ -137,5 +137,5 @@ var FARBEN = [
 
 ReactDOM.render(
     <GefilterteFarbenListe farben={ FARBEN } />,
-    document.getElementById('content')
+    document.getElementById('farbenListe')
 )
