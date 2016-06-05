@@ -18,9 +18,7 @@
   },
   "keywords": [
     "react",
-    "tutorial",
-    "comment",
-    "example"
+    "backzutaten"
   ],
   "author": "blalasaadri",
   "bugs": {
@@ -29,5 +27,6 @@
   "homepage": "https://github.com/blalasaadri/backzutaten",
   "engines" : {
     "node" : "0.12.x"
-  }
+  },
+  "license": "MIT"
 }
